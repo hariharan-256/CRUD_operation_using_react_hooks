@@ -1,12 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import './scss/index.scss';
+import Routes from './routes';
 import reportWebVitals from './reportWebVitals';
+import {UserProvider} from './context';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <UserProvider>
+      <Routes />
+    </UserProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );

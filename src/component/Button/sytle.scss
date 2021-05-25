@@ -1,0 +1,17 @@
+.primary_btn{
+    background-color: var(--color__blue);
+    border: 1px solid var(--color__blue);
+    border-radius: 3px;
+    color: var(--color__white);
+    display: block;
+    font-size: calc(var(--base__fontSize) + 4px);
+    height: 40px;
+    line-height: calc(var(--base__lineHeight));
+    outline: none;
+    transition: .5s ease-out;
+    width: 120px;
+    &:hover{
+        background-color: transparent;
+        color: var(--color__blue);
+    }
+}

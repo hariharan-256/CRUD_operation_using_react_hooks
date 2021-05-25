@@ -1,0 +1,28 @@
+.table-bordered{
+    width: 100%;
+    border-color: var(--color__blue);
+    td,th{
+        border-color: var(--color__blue);
+        font-size: 17px;
+        line-height: 23px;
+        &:last-child{
+            width: 25%;
+        }
+    }
+    th{
+        background-color: var(--color__darkblue);
+        border-color: var(--color__blue);
+        color: var(--color__white);
+        padding: 10px 0;
+        text-align: center;
+    }
+    td{
+        background-color: var(--color__liteblue);
+        padding: 10px;
+    }
+    thead{
+        th{
+            border-bottom-width: 1px;
+        }
+    }
+}

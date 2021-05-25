@@ -1,0 +1,32 @@
+.todo{
+    &_container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        min-height: 100vh;
+        flex-direction: column;
+        width: 340px;
+        &.fluid{
+            width: inherit;
+        }
+    }
+    &_row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &_align{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+}
+.err-msg{
+    color: var(--color__red);
+    display: block;
+    margin-top: -10px;
+    margin-bottom: 8px;
+}
+h4{
+    color: var(--color__blue);
+}
